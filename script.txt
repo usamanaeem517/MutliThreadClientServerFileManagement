@@ -1,0 +1,27 @@
+$./client
+Socket Created
+Connected
+Enter Message: mkdir dir1
+Server Message: Successful!
+Enter Message: pwd
+Server Message: dir1
+Enter Message: C abc.txt
+Server Message: Successful!
+Enter Message: W abc.txt 20 this is dummy data
+Server Message: Successful!
+Enter Message: R abc.txt
+Server Message: this is dummy data
+Enter Message: mkdir dir2
+Server Message: Successful!
+Enter Message: pwd
+Server Message: dir1
+Enter Message: cd dir2
+Server Message: Successful!
+Enter Message: pwd
+Server Message: dir2
+Enter Message: C file1.txt
+Server Message: Successful!
+Enter Message: L 0
+Server Message: file1.txt
+Enter Message: DISCONNECT
+$
